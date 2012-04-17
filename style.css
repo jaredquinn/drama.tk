@@ -2,6 +2,15 @@
 body.go			{ background: black; color: #eee; font-family: Helvetica; }
 body.entertext	{ background: white; color: #333; font-family: Helvetica; }
 
+.t1				{ color: #ff0000; }
+.t2				{ color: #ee0000; }
+.t3				{ color: #dd0000; }
+.t4				{ color: #cc0000; }
+.t5				{ color: #aa0000; }
+.t6				{ color: #000000; }
+.t7				{ color: #cc0000; }
+.t8				{ color: #dd0000; }
+
 .textbody		{ width: 50%; margin: 100px auto; text-align: center;  }
 .fancytext		{ font-size: 14pt; padding: 5px; border-radius: 5px; border: 1px solid #333; text-align: center; }
 .fancybtn		{ font-size: 10pt; background: #cc0000; color: #ddd; padding: 5px; border-radius: 5px; border: 1px solid #ff0000; }
