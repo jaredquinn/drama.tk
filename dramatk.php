@@ -5,6 +5,12 @@
 </pre>
 <?  echo '<div class="dramatic"><p class="blink">' . $_REQUEST['str'] . '</p></div>'; ?>
 <script type="text/javascript">
+
+jQuery.fn.center = function () { this.css("position","absolute");
+	 this.css("top", (($(window).height() - this.outerHeight()) / 2) + $(window).scrollTop() + "px");
+	 this.css("left", (($(window).width() - this.outerWidth()) / 2) + $(window).scrollLeft() + "px");
+	 return this; }
+
 	stufftodump = [];
 <?
 $f = file('randomtext' . rand(1, 3) . '.txt');
@@ -16,6 +22,7 @@ foreach ($f as $line) {
 ?>
 	
 	function makePopupGo() {
+		$('.dramatic').center();
 		$('.dramatic').css({ height: $('.dramatic').height() + 'px', display: 'block' });
 		setInterval(toggleBlinks, 300); 
 	}

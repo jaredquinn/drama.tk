@@ -2,20 +2,22 @@
 body.go			{ background: black; color: #eee; font-family: Helvetica; }
 body.entertext	{ background: white; color: #333; font-family: Helvetica; }
 
+h1			 	{ font-family: 'Fugaz One', cursive; }
 .t1				{ color: #ff0000; }
-.t2				{ color: #ee0000; }
-.t3				{ color: #dd0000; }
-.t4				{ color: #cc0000; }
-.t5				{ color: #aa0000; }
-.t6				{ color: #000000; }
-.t7				{ color: #cc0000; }
-.t8				{ color: #dd0000; }
+.t2				{ color: #dd0000; }
+.t3				{ color: #bb0000; }
+.t4				{ color: #990000; }
+.t5				{ color: #990000; }
+.t6				{ color: #bb0000; }
+.t7				{ color: #dd0000; }
+.t8				{ color: #ff0000; }
 
-.textbody		{ width: 50%; margin: 100px auto; text-align: center;  }
-.fancytext		{ font-size: 14pt; padding: 5px; border-radius: 5px; border: 1px solid #333; text-align: center; }
-.fancybtn		{ font-size: 10pt; background: #cc0000; color: #ddd; padding: 5px; border-radius: 5px; border: 1px solid #ff0000; }
-.fancybtn:hover	{ font-size: 10pt; background: #ee0000; color: white; padding: 5px; border-radius: 5px; border: 1px solid #ff0000; }
+.textbody		{ width: 30%; margin: 100px auto; text-align: center;  }
+.small			{ font-size: 8pt; color: #666; }
+.fancytext		{ font-size: 14pt; padding: 5px; border-radius: 5px; border: 1px solid #333; text-align: center; width: 100%; }
+.fancybtn		{ font-size: 10pt; background: #cc0000; color: #ddd; padding: 8px 10px; border-radius: 5px; border: 1px solid #ff0000; }
+.fancybtn:hover	{ font-size: 10pt; background: #ee0000; color: white; padding: 8px 10px; border-radius: 5px; border: 1px solid #ff0000; }
 a				{ color: red; }
 .background		{ width: 100%; height: 100%; font-size: 8.5pt; overflow: hidden; top: 0; left: 0; position: absolute;  color: #00ee00; z-index: -33}
-.dramatic		{ font-size: 30pt; color: red; border: 3px solid #e88; padding: 5px; margin: 100 auto; display: block; width: 30%; text-align: center; display: none; background: #111; border-radius: 10px; }
+.dramatic		{ font-size: 30pt; color: red; border: 3px solid #ccc; padding: 5px; display: block; width: 30%; text-align: center; display: none; background: #111; border-radius: 10px; }
 p				{ margin: 0; padding: 0; }

@@ -5,14 +5,23 @@
 
 <form method="post">
 
+	<p class="small">
+	Enter text to make Dramatk
+	</p>
+
 	<p>
-	<input class="fancytext" type="text" name="str" value="" size="50" />
+	<input class="fancytext" type="text" name="str" value="" size="50" id="drama-text" />
 	</p>
 
 	<p>	
-	<input class="fancybtn" type="submit" value="Make Drama.Tk" />
+	<input class="fancybtn" type="submit" value="Make Dramatk" />
 	</p>
 
 </form>
 
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#drama-text').focus();	
+	});
+</script>
 </div>
