@@ -1,0 +1,12 @@
+
+body.go			{ background: black; color: #eee; font-family: Helvetica; }
+body.entertext	{ background: white; color: #333; font-family: Helvetica; }
+
+.textbody		{ width: 50%; margin: 100px auto; text-align: center;  }
+.fancytext		{ font-size: 14pt; padding: 5px; border-radius: 5px; border: 1px solid #333; text-align: center; }
+.fancybtn		{ font-size: 10pt; background: #cc0000; color: #ddd; padding: 5px; border-radius: 5px; border: 1px solid #ff0000; }
+.fancybtn:hover	{ font-size: 10pt; background: #ee0000; color: white; padding: 5px; border-radius: 5px; border: 1px solid #ff0000; }
+a				{ color: red; }
+.background		{ width: 100%; height: 100%; font-size: 8.5pt; overflow: hidden; top: 0; left: 0; position: absolute;  color: #00ee00; z-index: -33}
+.dramatic		{ font-size: 30pt; color: red; border: 3px solid #e88; padding: 5px; margin: 100 auto; display: block; width: 30%; text-align: center; display: none; background: #111; border-radius: 10px; }
+p				{ margin: 0; padding: 0; }
